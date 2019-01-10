@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>www.Metallica.co.uk/</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="CSS/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://www.jeasyui.com/easyui/jquery.easyui.min.js"></script>
+    <script src="JS/javascript.js"></script>
+</head>
+<body>
+    <section id="home">
+        <div id="navbar">
+            <a href="home">Home</a>
+            <a href="about">About</a>
+            <a href="playlist">Playlist</a>
+            <a href="demo">Demo</a>
+            <a href="social">Social</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div id="aboutLeft">
+            <h1 id="aboutHeader">About</h1>
+            <P id="aboutParagraph">
+                Metallica is a heavy metal band. Reigning from Los Angeles in California, <br>
+                the 4 man band holds 9 grammy's from it's 23 nominations. Asides from <br>
+                founding the 'big four' bands of thrash metal, which includes <br>
+                Slayer, Megadeth and Anthrax, Metallica was inducted into the <br>
+                Rock and Roll Hall of Fame back in 2009.
+                <br><br>
+                The website features a playlist section, in which you can create a custom <br>
+                playlist to play & listen too in your browser, or simply fully preview each song.<br>
+                If you wished to purchase the music there is a link to Spotify in Social where they <br>
+                are fully available.
+                <br><br>
+                Furthermore is the Demo section, in this there is a video displaying the features <br>
+                and functionality of this website. 
+            </p>
+        </div>
+    </section>
+
+    <section id="playlist">
+        <div class="album1">
+            
+            <div id="song1" class="drag" class="playing" class="active">
+                <p>And Justice For All</p>
+                <audio id="andjusticeforall" src="ASSETS/mp3/andjusticeforall/andjusticeforall.mp3"></audio>
+            </div>
+            <div id="song2" class="drag" class="playing" class="active1">
+                <p>Blackened</p>
+                <audio id="blackened" src="ASSETS/mp3/andjusticeforall/blackened.mp3"></audio>
+            </div>
+            <div id="song3" class="drag" class="playing" class="active2">
+                <p>Harverster of Sorrow</p>
+                <audio id="harversterofsorrow" src="ASSETS/mp3/andjusticeforall/harversterofsorrow.mp3"></audio>
+            </div>
+            <div id="song4" class="drag" class="playing" onclick="play3()">
+                <p>One</p>
+                <audio id="one" src="ASSETS/mp3/andjusticeforall/one.mp3"></audio>
+            </div>
+
+                <div id="song5" class="drag" class="playing" onclick="play4()">
+                    <p>Fade To Black</p>
+                    <audio id="fadetoblack" src="ASSETS/mp3/discography/fadetoblack.mp3"></audio>
+                </div>
+                <div id="song6" class="drag" class="playing" onclick="play5()">
+                    <p>Hardwired</p>
+                    <audio id="hardwired" src="ASSETS/mp3/discography/hardwired.mp3"></audio>
+                </div>
+                <div id="song7" class="drag" class="playing" onclick="play6()">
+                    <p>Master of Puppets</p>
+                    <audio id="masterofpuppets" src="ASSETS/mp3/discography/masterofpuppets.mp3"></audio>
+                </div>
+                <div id="song8" class="drag" class="playing" onclick="play7()">
+                    <p>Whiskey In The Jar</p>
+                    <audio id="whiskeyinthejar" src="ASSETS/mp3/discography/whiskeyinthejar.mp3"></audio>
+                </div>
+
+                <div id="song9" class="drag" class="playing" onclick="play8()">
+                        <p>EnterSandman</p>
+                        <audio id="entersandman" src="ASSETS/mp3/metallica/entersandman.mp3"></audio>
+                    </div>
+                    <div id="song10" class="drag" class="playing" onclick="play9()">
+                        <p>Nothing Else Matter</p>
+                        <audio id="nothingelsematter" src="ASSETS/mp3/metallica/nothingelsematter.mp3"></audio>
+                    </div>
+                    <div id="song11" class="drag" class="playing" onclick="play10()">
+                        <p>Sad But True</p>
+                        <audio id="sadbuttrue" src="ASSETS/mp3/metallica/sadbuttrue.mp3"></audio>
+                    </div>
+                    <div id="song12" class="drag" class="playing" onclick="play11()">
+                        <p>The Unforgiven</p>
+                        <audio id="theunforgiven" src="ASSETS/mp3/metallica/theunforgiven.mp3"></audio>
+                    </div>
+
+            <button class="mediaPlayers" id="button1" onclick="help()">Help</button> 
+            <button class="mediaPlayers" id="button2" onclick="playing()">Pause</button>
+            </div>
+            
+            </div>
+            
+        <div id="songsList">
+        <div id="songsList1">
+        <div id="songsList2">
+        <div id="songsList3">
+        <div id="songsList4">       
+        <div id="songsList5">
+        <div id="songsList6">
+        <div id="songsList7">
+        <div id="songsList8">
+        <div id="songsList9">
+        <div id="songsList10">
+        <div id="songsList11">
+        <div id="songsList12">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        </div>
+    </section>
+
+    <section id="demo">
+        <div id="demoLeft">
+            <h1 id="demoHeader">Demo</h1>
+            <iframe width="415" height="315" src="https://www.youtube.com/embed/_Wp3W_mFTss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
+    <section id="social">
+        <div class="socialBars">
+            <a href="https://en-gb.facebook.com/Metallica/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/Metallica?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/metallica/?hl=en" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/channel/UCbulh9WdLtEXiooRcYK7SWw" class="fa fa-youtube"></a>
+            <a href="https://www.tumblr.com/tagged/metallica" class="fa fa-tumblr"></a>
+            <a href="https://open.spotify.com/artist/2ye2Wgw4gimLv2eAKyk1NB" class="fa fa-spotify"></a>
+        </div>
+    </section> 
+</body>
+</html>

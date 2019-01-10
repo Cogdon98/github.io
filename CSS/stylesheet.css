@@ -1,0 +1,382 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: dimgray;
+}
+h1 {
+    font-size: 100px;
+    font-family: Verdana;
+    color: aliceblue;
+}
+p {
+    font-size: 22px;
+    font-family: Verdana;
+    font: outline;
+    color: aliceblue;
+    width: 100%;
+    overflow-wrap: break-word;
+}
+li {
+    font-size: 1.5vw;
+    font-family: Verdana;
+    font: outline;
+    color: aliceblue;
+    width: 100%;
+}
+/* SECTION 1 Start */
+#home {
+    background-image: url('../ASSETS/stagephoto.jpg'); 
+    width: 100%; height: 110vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+#navbar{
+    overflow: hidden;
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    margin: 17px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 2.3vh;
+}
+#navbar a:hover {
+    color: #F43D42;
+}   
+/* SECTION 1 End */
+
+/* SECTION 2 Start */
+#aboutLeft {
+    background-image: url('../ASSETS/wallpaper1.jpg');
+    width: 100%; height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+#aboutHeader {
+    position: relative;
+    left: 4vw;
+    top: 1vh;
+}
+#aboutParagraph {
+    position: relative;
+    padding-left: 80px;
+    padding-right: 80px;
+    top: 2vh;
+    width: 100%; height: 100%;
+}
+/* SECTION 2 End */
+
+/* SECTION 3 Start */
+#playlist {
+    background-image: url('../ASSETS/metallica31.png');
+    background-color: gray;
+    width: 100%; height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.album1 {
+    border-style: solid;
+    border-color: #BEB6B7;
+    width: 45vw; height: 85vh;
+    margin-top: 3%; margin-left: 3%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    overflow: auto;
+}
+#songsList {
+    border-style: solid;
+    border-color: #BEB6B7;
+    width: 45vw; height: 85%;
+    margin-top: 3%; margin-right: 3%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+#songsList1 {
+    width: 100%; height: 100%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+    top: 0%; left: 0%;
+}
+#songsList2 {
+    width: 100%; height: 100%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+#songsList3 {
+    width: 100%; height: 100%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+#songsList4 {
+    width: 100%; height: 100%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+#songsList5 {
+    width: 100%; height: 100%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+#songsList6 {
+    width: 100%; height: 100%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+#songsList7 {
+    width: 100%; height: 100%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+#songsList8 {
+    width: 100%; height: 100%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+#songsList9 {
+    width: 100%; height: 100%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+#songsList10 {
+    width: 100%; height: 100%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+#songsList11 {
+    width: 100%; height: 100%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+#songsList12 {
+    width: 100%; height: 100%;
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+.mediaPlayers {
+    position: absolute;
+    top: 90%; left: 3%;
+    padding: 2%;
+    position: relative;
+}
+#audioPlayer {
+    position: absolute;
+    top: 80%; left: 3%;
+}
+/* SECTION 3 End */
+
+/* SECTION 4 Start */
+#demoLeft {
+    background-image: url('../ASSETS/wallpaper4.jpg');
+    width: 100%; height: 110vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#demoHeader {
+    position: relative;
+    left: 4vw;
+    top: 1vw;
+    color: aliceblue;
+    overflow: hidden;
+}
+/* SECTION 4 End */
+
+/* SECTION 5 Start */
+#social {
+    background-image: url('../ASSETS/644957.jpg');
+    background-color: rgb(31, 29, 29);
+    width: 100%; height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.fa {
+    padding: 2%;
+    font-size: 5%;
+    width: 4%; height: 4%;
+    text-align: center;
+    text-decoration: none;
+    margin: 1% 0.5%;;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #f40083;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-tumblr {
+    background: #2c4762;
+    color: white;
+}
+.fa-spotify {
+    background: rgb(19, 18, 18);
+    color: green;
+}
+/* SECTION 5 End */
+
+/* SONGS Start */
+#song1 {
+    background-image: url('../ASSETS/mp3/andjusticeforall/albumcover1.jpg');
+    background-size: cover;
+    width: 25%; height: 25%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+#song2 {
+    background-image: url('../ASSETS/mp3/andjusticeforall/albumcover1.jpg');
+    background-size: cover;
+    width: 25%; height: 25%;
+    position: absolute;
+    top: 0%;
+    left: 25%;
+}
+#song3 {
+    background-image: url('../ASSETS/mp3/andjusticeforall/albumcover1.jpg');
+    background-size: cover;
+    width: 25%; height: 25%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+#song4 {
+    background-image: url('../ASSETS/mp3/andjusticeforall/albumcover1.jpg');
+    background-size: cover;
+    width: 25%; height: 25%;
+    position: absolute;
+    top: 0%;
+    left: 75%;
+}
+#song5 {
+    background-image: url('../ASSETS/mp3/discography/albumcover2.jpg');
+    background-size: cover;
+    width: 25%; height: 25%;
+    position: absolute;
+    top: 25%;
+    left: 0%;
+}
+#song6 {
+    background-image: url('../ASSETS/mp3/discography/albumcover2.jpg');
+    background-size: cover;
+    width: 25%; height: 25%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+#song7 {
+    background-image: url('../ASSETS/mp3/discography/albumcover2.jpg');
+    background-size: cover;
+    width: 25%; height: 25%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+#song8 {
+    background-image: url('../ASSETS/mp3/discography/albumcover2.jpg');
+    background-size: cover;
+    width: 25%; height: 25%;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+}
+#song9 {
+    background-image: url('../ASSETS/mp3/metallica/albumcover3.jpg');
+    background-size: cover;
+    width: 25%; height: 25%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+#song10 {
+    background-image: url('../ASSETS/mp3/metallica/albumcover3.jpg');
+    background-size: cover;
+    width: 25%; height: 25%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+#song11 {
+    background-image: url('../ASSETS/mp3/metallica/albumcover3.jpg');
+    background-size: cover;
+    width: 25%; height: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#song12 {
+    background-image: url('../ASSETS/mp3/metallica/albumcover3.jpg');
+    background-size: cover;
+    width: 25%; height: 25%;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
+/* SONGS End */
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 12px;
+    }
+
+    #aboutParagraph {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #demoLeft {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
